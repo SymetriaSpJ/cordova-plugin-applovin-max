@@ -25,7 +25,7 @@ module.exports = async function(context) {
 
     try {
         console.log('Applovin copying quality service setup script');
-        await fs.copyFile(scriptName, `${iosPath}/${scriptName}`);
+        await fs.copyFile(`${__dirname}/${scriptName}`, `${iosPath}/${scriptName}`);
         console.log('Applovin running setup script');
         await execApplovinScript(iosPath);
         console.log('Applovin removing setup script');
