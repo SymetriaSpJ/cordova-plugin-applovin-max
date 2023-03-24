@@ -35,6 +35,7 @@
     <!-- ios -->
     <platform name="ios">
         <hook type="after_prepare" src="scripts/ios/setupApplovinQualityServiceHook.js" />
+        <hook type="before_plugin_rm" src="scripts/ios/removeApplovinQualityServiceHook.js" />
 
         <config-file target="config.xml" parent="/*">
             <feature name="AppLovinMAX">
