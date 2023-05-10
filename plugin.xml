@@ -54,6 +54,7 @@
             </config>
             <pods use-frameworks="true">
                 <pod name="AppLovinSDK" />
+                <pod name="GoogleMobileAdsMediationAppLovin" />
             </pods>
         </podspec>
     </platform>
