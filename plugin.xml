@@ -28,7 +28,6 @@
         <source-file src="src/android/AppLovinMAX.java" target-dir="src/com/applovin/cordova" />
 
         <framework src="com.applovin:applovin-sdk:+" />
-        <framework src="com.google.ads.mediation:applovin:11.9.0.0" />
         <framework src="applovin.gradle" custom="true" type="gradleReference" />
     </platform>
 
@@ -54,7 +53,6 @@
             </config>
             <pods use-frameworks="true">
                 <pod name="AppLovinSDK" />
-                <pod name="GoogleMobileAdsMediationAppLovin" />
             </pods>
         </podspec>
     </platform>
